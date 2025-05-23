@@ -12,7 +12,12 @@ namespace UIFuneraria
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.FormClosing += WhenFormCloses;
+        }
 
+        private void WhenFormCloses(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); // Close the application
         }
 
         public void button1_Click(object sender, EventArgs e)

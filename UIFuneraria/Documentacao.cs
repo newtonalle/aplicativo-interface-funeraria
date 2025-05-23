@@ -40,7 +40,12 @@ namespace UIFuneraria
 
         private void DocumentacaoPage_Load(object sender, EventArgs e)
         {
+            this.FormClosing += WhenFormCloses;
+        }
 
+        private void WhenFormCloses(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); // Close the application
         }
 
         private void LoginSelect_Click(object sender, EventArgs e)

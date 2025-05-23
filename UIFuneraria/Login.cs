@@ -12,7 +12,12 @@ namespace UIFuneraria
 
         private void Login_Load(object sender, EventArgs e)
         {
+            this.FormClosing += WhenFormCloses;
+        }
 
+        private void WhenFormCloses(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); // Close the application
         }
 
         private void PlanosSelect_Click(object sender, EventArgs e)
@@ -63,6 +68,18 @@ namespace UIFuneraria
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Login in...");
+
+            // Connect database (nuggetos)
+            // Link connection
+            // Link request
+            // Open connection
+            // Verifications
+            // Send connection?
         }
     }
 }

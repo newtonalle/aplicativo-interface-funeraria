@@ -125,6 +125,7 @@
             this.Controls.Add(this.PlanosSelect);
             this.Name = "ContatoPage";
             this.Text = "Contato";
+            this.Load += new System.EventHandler(this.ContatoPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

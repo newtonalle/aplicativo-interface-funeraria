@@ -47,7 +47,12 @@ namespace UIFuneraria
 
         private void LojaPage_Load(object sender, EventArgs e)
         {
+            this.FormClosing += WhenFormCloses;
+        }
 
+        private void WhenFormCloses(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); // Close the application
         }
     }
 }
