@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\documentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:documentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\documentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:documentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|c:\\users\\newton\\documents\\github\\interface-funeraria\\uifuneraria\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:38:22.154Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Documentacao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Documentacao.cs",
+              "RelativeDocumentMoniker": "Documentacao.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Documentacao.cs [Design]",
+              "RelativeToolTip": "Documentacao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:14:21.501Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Documentacao.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Documentacao.cs",
+              "RelativeDocumentMoniker": "Documentacao.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Documentacao.cs",
+              "RelativeToolTip": "Documentacao.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAEwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:18:55.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contatos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Contatos.cs",
+              "RelativeDocumentMoniker": "Contatos.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Contatos.cs [Design]",
+              "RelativeToolTip": "Contatos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:06:43.761Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contatos.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Contatos.cs",
+              "RelativeDocumentMoniker": "Contatos.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Contatos.cs",
+              "RelativeToolTip": "Contatos.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAlwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:11:10.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Agendamentos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Agendamentos.cs",
+              "RelativeDocumentMoniker": "Agendamentos.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Agendamentos.cs [Design]",
+              "RelativeToolTip": "Agendamentos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:38:22.691Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loja.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs",
+              "RelativeDocumentMoniker": "Loja.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs [Design]",
+              "RelativeToolTip": "Loja.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:41:44.119Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:35:45.413Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAADQAAAAAzczMzMwMwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:39:06.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Loja.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs",
+              "RelativeDocumentMoniker": "Loja.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs",
+              "RelativeToolTip": "Loja.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAEwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:19:23.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:27:17.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAYAAACAmZmZmZknwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:39:06.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Agendamentos.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Agendamentos.cs",
+              "RelativeDocumentMoniker": "Agendamentos.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Agendamentos.cs",
+              "RelativeToolTip": "Agendamentos.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA5wDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:43:41.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

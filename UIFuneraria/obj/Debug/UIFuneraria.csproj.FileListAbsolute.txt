@@ -1,0 +1,15 @@
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\bin\Debug\UIFuneraria.exe.config
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\bin\Debug\UIFuneraria.exe
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\bin\Debug\UIFuneraria.pdb
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.csproj.AssemblyReference.cache
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.AgendamentosPage.resources
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.ContatoPage.resources
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.DocumentacaoPage.resources
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.PlanosPage.resources
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.LoginPage.resources
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.LojaPage.resources
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.Properties.Resources.resources
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.csproj.GenerateResource.cache
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.csproj.CoreCompileInputs.cache
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.exe
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.pdb
