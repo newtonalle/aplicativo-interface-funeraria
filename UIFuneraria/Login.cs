@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
+using System.Security.Cryptography;
+using System.Text;
 
 namespace UIFuneraria
 {
@@ -72,14 +76,60 @@ namespace UIFuneraria
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Login in...");
+            MessageBox.Show("Criando conta...");
 
-            // Connect database (nuggetos)
-            // Link connection
-            // Link request
-            // Open connection
-            // Verifications
-            // Send connection?
+            try
+            {
+                //se tiver vazio
+                if (InputNome.Text == "")
+                {
+                    //Alerta para o usuario mensagem verdadeira
+                    MessageBox.Show("Nome está vazio!");
+                }
+
+                // alerta para o usuario preenchido
+                //MessageBox.Show("campo preenchido!");
+
+                if (InputEmail.Text == "")
+                {
+                    MessageBox.Show("Email está vazio!");
+                }
+
+                if (InputSenha.Text == "")
+                {
+                    MessageBox.Show("Senha está vazia!");
+                }
+
+                if (InputSenha.Text != "" && InputEmail.Text != "" && InputNome.Text != "")
+                {
+                    //caminho de configuração do servidor
+                    string data_source = "datasource=localhost;username=root;password='';database=sistema;";
+
+                    //abrindo a conexão
+                    MySqlConnection conexao = new MySqlConnection(data_source);
+
+                    // Encriptando senha
+                    string senhaHash = BitConverter.ToString(new System.Security.Cryptography.SHA256Managed().ComputeHash(System.Text.Encoding.UTF8.GetBytes(InputSenha.Text))).Replace("-", string.Empty);
+
+                    //criando o script sql para inserir as informações
+                    string sql = "insert into usuarios(nome,email,senha) values('" + InputNome.Text + "','" + InputEmail.Text + "','" + senhaHash + "')";
+
+                    //montar o script sql para executar
+                    MySqlCommand comando = new MySqlCommand(sql, conexao);
+
+                    //abrir o banco de dados
+                    conexao.Open();
+
+                    //executar a consulta no banco de dados
+                    comando.ExecuteNonQuery();
+
+                    MessageBox.Show("Successfuly created account!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro inesperado (possivelmente não conectado ao banco de dados): " + ex);
+            }
         }
     }
 }
