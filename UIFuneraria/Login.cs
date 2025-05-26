@@ -59,22 +59,12 @@ namespace UIFuneraria
             tempPage.Show();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void CreateAccount_Click(object sender, EventArgs e)
         {
-
+            CreateUser(InputEmail.Text, InputEmail.Text, InputSenha.Text);
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void CreateUser(string nome, string email, string senha)
         {
             MessageBox.Show("Criando conta...");
 

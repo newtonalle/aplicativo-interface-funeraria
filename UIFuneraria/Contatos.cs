@@ -45,11 +45,6 @@ namespace UIFuneraria
             tempPage.Show();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void ContatoPage_Load(object sender, EventArgs e)
         {
             this.FormClosing += WhenFormCloses;
