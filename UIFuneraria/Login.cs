@@ -1,9 +1,9 @@
 ﻿using System;
+using System.Data;
+using System.Diagnostics;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
-using System.Security.Cryptography;
-using System.Text;
+using MySqlX.XDevAPI.Relational;
 
 namespace UIFuneraria
 {
@@ -59,9 +59,19 @@ namespace UIFuneraria
             tempPage.Show();
         }
 
-        private void CreateAccount_Click(object sender, EventArgs e)
+        private void CreateOrLoginAccount_Click(object sender, EventArgs e)
         {
-            CreateUser(InputEmail.Text, InputEmail.Text, InputSenha.Text);
+            MySqlDataReader foundUser = FindUserByEmail(InputEmail.Text);
+            if (foundUser != null) 
+            {
+                // User already using this email
+                MessageBox.Show("Welcome " + foundUser.GetString(1) + "!");
+                PlanosSelect_Click(sender, e);
+            }
+            else
+            {
+                CreateUser(InputEmail.Text, InputEmail.Text, InputSenha.Text);
+            }
         }
 
         private void CreateUser(string nome, string email, string senha)
@@ -71,7 +81,7 @@ namespace UIFuneraria
             try
             {
                 //se tiver vazio
-                if (InputNome.Text == "")
+                if (nome == "")
                 {
                     //Alerta para o usuario mensagem verdadeira
                     MessageBox.Show("Nome está vazio!");
@@ -80,17 +90,17 @@ namespace UIFuneraria
                 // alerta para o usuario preenchido
                 //MessageBox.Show("campo preenchido!");
 
-                if (InputEmail.Text == "")
+                if (email == "")
                 {
                     MessageBox.Show("Email está vazio!");
                 }
 
-                if (InputSenha.Text == "")
+                if (senha == "")
                 {
                     MessageBox.Show("Senha está vazia!");
                 }
 
-                if (InputSenha.Text != "" && InputEmail.Text != "" && InputNome.Text != "")
+                if (senha != "" && email != "" && nome != "")
                 {
                     //caminho de configuração do servidor
                     string data_source = "datasource=localhost;username=root;password='';database=sistema;";
@@ -99,10 +109,10 @@ namespace UIFuneraria
                     MySqlConnection conexao = new MySqlConnection(data_source);
 
                     // Encriptando senha
-                    string senhaHash = BitConverter.ToString(new System.Security.Cryptography.SHA256Managed().ComputeHash(System.Text.Encoding.UTF8.GetBytes(InputSenha.Text))).Replace("-", string.Empty);
+                    string senhaHash = BitConverter.ToString(new System.Security.Cryptography.SHA256Managed().ComputeHash(System.Text.Encoding.UTF8.GetBytes(senha))).Replace("-", string.Empty);
 
                     //criando o script sql para inserir as informações
-                    string sql = "insert into usuarios(nome,email,senha) values('" + InputNome.Text + "','" + InputEmail.Text + "','" + senhaHash + "')";
+                    string sql = "insert into usuarios(nome,email,senha) values('" + nome + "','" + email + "','" + senhaHash + "')";
 
                     //montar o script sql para executar
                     MySqlCommand comando = new MySqlCommand(sql, conexao);
@@ -120,6 +130,76 @@ namespace UIFuneraria
             {
                 MessageBox.Show("Erro inesperado (possivelmente não conectado ao banco de dados): " + ex);
             }
+        }
+
+        private DataTable FindUserByEmail(string email)
+        {
+            DataTable userTable = new DataTable();
+
+            DataColumn column0 = new DataColumn();
+            column0.DataType = System.Type.GetType("System.Int32");
+            column0.ColumnName = "id";
+            column0.AutoIncrement = true;
+            column0.Caption = "id";
+            column0.ReadOnly = false;
+            column0.Unique = true;
+            userTable.Columns.Add(column0);
+
+            DataColumn column1 = new DataColumn();
+            column1.DataType = System.Type.GetType("System.String");
+            column1.ColumnName = "name";
+            column1.AutoIncrement = false;
+            column1.Caption = "name";
+            column1.ReadOnly = false;
+            column1.Unique = false;
+            userTable.Columns.Add(column1);
+
+            DataColumn column2 = new DataColumn();
+            column2.DataType = System.Type.GetType("System.String");
+            column2.ColumnName = "email";
+            column2.AutoIncrement = false;
+            column2.Caption = "email";
+            column2.ReadOnly = false;
+            column2.Unique = false;
+            userTable.Columns.Add(column2);
+
+            DataColumn column3 = new DataColumn();
+            column3.DataType = System.Type.GetType("System.String");
+            column3.ColumnName = "password";
+            column3.AutoIncrement = false;
+            column3.Caption = "password";
+            column3.ReadOnly = false;
+            column3.Unique = false;
+            userTable.Columns.Add(column3);
+
+
+            DataRow row = userTable.NewRow();
+            row["id"] = i;
+            row["name"] = "Item " + i;
+            row["email"] = 0;
+            table.Rows.Add(row);
+
+            string data_source = "datasource=localhost;username=root;password='';database=sistema;";
+
+            using (MySqlConnection conexao = new MySqlConnection(data_source))
+            {
+                string sql = "select * from usuarios where email = '" + email + "'";
+
+                using (MySqlCommand command = new MySqlCommand(sql, conexao))
+                {
+                    conexao.Open();
+                    using (MySqlDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection))
+                    {
+                        while (reader.Read())
+                        {
+                            userTable.NewRow(1, 2, 3);
+                            return reader;
+                        }
+                    }
+                }
+            }
+
+            return null;
         }
     }
 }

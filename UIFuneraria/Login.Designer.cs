@@ -182,7 +182,7 @@
             this.LoginCadastroSelect.TabIndex = 34;
             this.LoginCadastroSelect.Text = "Login/Cadastro";
             this.LoginCadastroSelect.UseVisualStyleBackColor = false;
-            this.LoginCadastroSelect.Click += new System.EventHandler(this.CreateAccount_Click);
+            this.LoginCadastroSelect.Click += new System.EventHandler(this.CreateOrLoginAccount_Click);
             // 
             // pictureBox1
             // 
