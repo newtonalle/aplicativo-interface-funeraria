@@ -35,6 +35,7 @@
             this.PlanosSelect = new System.Windows.Forms.Button();
             this.LoginSelect = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.InsertProductsButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,11 +110,22 @@
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
+            // InsertProductsButton
+            // 
+            this.InsertProductsButton.Location = new System.Drawing.Point(675, 57);
+            this.InsertProductsButton.Name = "InsertProductsButton";
+            this.InsertProductsButton.Size = new System.Drawing.Size(113, 23);
+            this.InsertProductsButton.TabIndex = 21;
+            this.InsertProductsButton.Text = "Cadastrar Produtos";
+            this.InsertProductsButton.UseVisualStyleBackColor = true;
+            this.InsertProductsButton.Click += new System.EventHandler(this.InsertProductsButton_Click);
+            // 
             // LojaPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.InsertProductsButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.LoginSelect);
             this.Controls.Add(this.DocumentacaoSelect);
@@ -138,5 +150,6 @@
         private System.Windows.Forms.Button PlanosSelect;
         private System.Windows.Forms.Button LoginSelect;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button InsertProductsButton;
     }
 }

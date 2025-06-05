@@ -61,7 +61,10 @@ namespace UIFuneraria
 
         private void CreateOrLoginAccount_Click(object sender, EventArgs e)
         {
+            new CadastroDeProdutosPage().CreateSQLTables();
+
             MySqlDataReader foundUser = FindUserByEmail(InputEmail.Text);
+
             if (foundUser != null) 
             {
                 // User already using this email
@@ -70,7 +73,7 @@ namespace UIFuneraria
             }
             else
             {
-                CreateUser(InputEmail.Text, InputEmail.Text, InputSenha.Text);
+                CreateUser(InputNome.Text, InputEmail.Text, InputSenha.Text);
             }
         }
 
@@ -123,7 +126,7 @@ namespace UIFuneraria
                     //executar a consulta no banco de dados
                     comando.ExecuteNonQuery();
 
-                    MessageBox.Show("Successfuly created account!");
+                    MessageBox.Show("Usuário criado com sucesso!");
                 }
             }
             catch (Exception ex)
@@ -132,9 +135,9 @@ namespace UIFuneraria
             }
         }
 
-        private DataTable FindUserByEmail(string email)
+        private MySqlDataReader FindUserByEmail(string email)
         {
-            DataTable userTable = new DataTable();
+           /* DataTable userTable = new DataTable();
 
             DataColumn column0 = new DataColumn();
             column0.DataType = System.Type.GetType("System.Int32");
@@ -177,7 +180,7 @@ namespace UIFuneraria
             row["id"] = i;
             row["name"] = "Item " + i;
             row["email"] = 0;
-            table.Rows.Add(row);
+            table.Rows.Add(row); */
 
             string data_source = "datasource=localhost;username=root;password='';database=sistema;";
 
@@ -192,7 +195,7 @@ namespace UIFuneraria
                     {
                         while (reader.Read())
                         {
-                            userTable.NewRow(1, 2, 3);
+                            //userTable.NewRow(1, 2, 3);
                             return reader;
                         }
                     }

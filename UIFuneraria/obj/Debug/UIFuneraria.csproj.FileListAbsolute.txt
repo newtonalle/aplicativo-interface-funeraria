@@ -46,3 +46,4 @@ C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\bin\Debug\Syste
 C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFunera.6324DBA7.Up2Date
+C:\Users\Newton\Documents\GitHub\interface-funeraria\UIFuneraria\obj\Debug\UIFuneraria.CadastroDeProdutosPage.resources

@@ -54,5 +54,12 @@ namespace UIFuneraria
         {
             Application.Exit(); // Close the application
         }
+
+        private void InsertProductsButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CadastroDeProdutosPage tempPage = new CadastroDeProdutosPage();
+            tempPage.Show();
+        }
     }
 }

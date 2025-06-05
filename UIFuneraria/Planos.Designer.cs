@@ -47,7 +47,6 @@
             this.PlanosSelect.TabIndex = 0;
             this.PlanosSelect.Text = "Planos";
             this.PlanosSelect.UseVisualStyleBackColor = false;
-            this.PlanosSelect.Click += new System.EventHandler(this.button1_Click);
             // 
             // AgendamentosSelect
             // 
@@ -57,7 +56,7 @@
             this.AgendamentosSelect.TabIndex = 1;
             this.AgendamentosSelect.Text = "Agendamentos";
             this.AgendamentosSelect.UseVisualStyleBackColor = true;
-            this.AgendamentosSelect.Click += new System.EventHandler(this.button2_Click);
+            this.AgendamentosSelect.Click += new System.EventHandler(this.AgendamentosSelect_Click);
             // 
             // ContatoSelect
             // 

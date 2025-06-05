@@ -20,12 +20,7 @@ namespace UIFuneraria
             Application.Exit(); // Close the application
         }
 
-        public void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        public void button2_Click(object sender, EventArgs e)
+        public void AgendamentosSelect_Click(object sender, EventArgs e)
         {
             this.Hide();
             AgendamentosPage tempPage = new AgendamentosPage();

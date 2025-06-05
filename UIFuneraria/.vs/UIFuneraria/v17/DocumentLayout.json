@@ -11,8 +11,28 @@
       "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\cadastrodeprodutospage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:cadastrodeprodutospage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\cadastrodeprodutospage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:cadastrodeprodutospage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\planos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:planos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\planos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:planos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57B58B50-04CB-48F3-897C-652499FC4D0F}|UIFuneraria.csproj|solutionrelative:loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loja.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs",
+              "RelativeDocumentMoniker": "Loja.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs",
+              "RelativeToolTip": "Loja.cs",
+              "ViewState": "AgIAADAAAACAMzMzMzMTwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:02:53.297Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -36,21 +69,56 @@
               "RelativeDocumentMoniker": "Login.cs",
               "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Login.cs",
               "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAQwK0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwD0AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T13:07:16.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "CadastroDeProdutosPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\CadastroDeProdutosPage.cs",
+              "RelativeDocumentMoniker": "CadastroDeProdutosPage.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\CadastroDeProdutosPage.cs [Design]",
+              "RelativeToolTip": "CadastroDeProdutosPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:10:36.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Planos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Planos.cs",
               "RelativeDocumentMoniker": "Planos.cs",
               "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Planos.cs [Design]",
               "RelativeToolTip": "Planos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:57:55.695Z"
+              "WhenOpened": "2025-06-04T14:03:01.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Planos.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Planos.cs",
+              "RelativeDocumentMoniker": "Planos.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Planos.cs",
+              "RelativeToolTip": "Planos.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T17:32:56.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastroDeProdutosPage.cs",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\CadastroDeProdutosPage.cs",
+              "RelativeDocumentMoniker": "CadastroDeProdutosPage.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\CadastroDeProdutosPage.cs",
+              "RelativeToolTip": "CadastroDeProdutosPage.cs",
+              "ViewState": "AgIAACgAAABAZmZmZmYrwEYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:11:27.001Z"
             },
             {
               "$type": "Document",
@@ -62,6 +130,17 @@
               "RelativeToolTip": "Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T16:02:45.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Loja.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs",
+              "RelativeDocumentMoniker": "Loja.cs",
+              "ToolTip": "C:\\Users\\Newton\\Documents\\GitHub\\interface-funeraria\\UIFuneraria\\Loja.cs [Design]",
+              "RelativeToolTip": "Loja.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:56:33.163Z"
             }
           ]
         }

@@ -104,6 +104,12 @@
     <Compile Include="Agendamentos.Designer.cs">
       <DependentUpon>Agendamentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastroDeProdutosPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroDeProdutosPage.Designer.cs">
+      <DependentUpon>CadastroDeProdutosPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Contatos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Agendamentos.resx">
       <DependentUpon>Agendamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroDeProdutosPage.resx">
+      <DependentUpon>CadastroDeProdutosPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Contatos.resx">
       <DependentUpon>Contatos.cs</DependentUpon>
